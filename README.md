@@ -1,21 +1,22 @@
 # 📊 Superstore Sales Dashboard
 
-This project is a simple data analysis dashboard built using the Superstore dataset.  
-I created this to practice working with real-world data and to understand how business insights can be extracted from it.
+I built this project to practice working with real-world sales data and understand how basic business insights can be generated from it.
+
+The dashboard is created using Python and Streamlit, and it allows simple exploration of sales and profit trends.
 
 ---
 
-## 💡 What this project does
+## 💡 What you can see here
 
-- Shows overall **sales and profit**
-- Displays **sales by category**
-- Compares **profit across regions**
-- Tracks **sales trend over time**
-- Lets you filter data by **region and category**
+- Total sales and profit values  
+- Sales distribution across different categories  
+- Profit comparison across regions  
+- Sales trend over time  
+- Option to filter data by region and category  
 
 ---
 
-## 🛠️ Tools used
+## 🛠️ Tech used
 
 - Python  
 - Pandas  
@@ -24,9 +25,9 @@ I created this to practice working with real-world data and to understand how bu
 
 ---
 
-## ▶️ How to run
+## ▶️ Running the project
 
-Clone the repository and run the following:
+Clone the repo and run:
 
 ```bash
 git clone https://github.com/som203112/sales-dashboard.git
