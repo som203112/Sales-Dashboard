@@ -1,65 +1,37 @@
-# 📊 Superstore Sales Data Analysis Dashboard
+# 📊 Superstore Sales Dashboard
 
-## 🔍 Overview
-This project analyzes the **Superstore Sales dataset** to extract meaningful business insights using Python and an interactive dashboard built with Streamlit.
-
-The dashboard helps visualize sales performance, profit trends, and key metrics across different regions and product categories.
+This project is a simple data analysis dashboard built using the Superstore dataset.  
+I created this to practice working with real-world data and to understand how business insights can be extracted from it.
 
 ---
 
-## 🚀 Features
-- 📊 **KPI Metrics**
-  - Total Sales
-  - Total Profit
-  - Total Orders
+## 💡 What this project does
 
-- 📈 **Visualizations**
-  - Sales by Category
-  - Profit by Region
-  - Sales Trend Over Time
-  - Top 10 Sub-Categories by Sales
-
-- 🎛️ **Interactive Filters**
-  - Region selection
-  - Category selection
-
-- 📋 **Data Preview**
-  - View filtered dataset directly
+- Shows overall **sales and profit**
+- Displays **sales by category**
+- Compares **profit across regions**
+- Tracks **sales trend over time**
+- Lets you filter data by **region and category**
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools used
+
 - Python  
 - Pandas  
-- Matplotlib  
-- Seaborn  
+- Matplotlib & Seaborn  
 - Streamlit  
 
 ---
 
-## 📂 Project Structure
-sales-dashboard/
-│── app.py
-│── sales.csv
-│── dashboard.png
-│── README.md
+## ▶️ How to run
 
+Clone the repository and run the following:
 
----
-
-## ▶️ How to Run Locally
-
-### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/som203112/sales-dashboard.git
 cd sales-dashboard
-
-### Create Virtual Environment
 python3 -m venv venv
 source venv/bin/activate
-
-### Install dependencies
 pip install pandas matplotlib seaborn streamlit
-
-### Run the dashboard
 streamlit run app.py
